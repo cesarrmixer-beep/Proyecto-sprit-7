@@ -1,7 +1,6 @@
 #Librerías
 import streamlit as st
 import pandas as pd
-import numpy as np
 import plotly.express as px
 
 #leer datos
@@ -57,4 +56,5 @@ if build_histogram:
     #mostrar grafico Plotly
     st.plotly_chart(fig, use_container_whidth=True, config={"displayModeBar": False})
     
+
 
